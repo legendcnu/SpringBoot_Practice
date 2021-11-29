@@ -11,7 +11,6 @@ public class UserDetails {
 	private String firstName;
 	private String lastName;
 	private String city;
-
 	public UserDetails(String firstName, String lastName, String city) {
 		this.firstName = firstName;
 		this.lastName = lastName;

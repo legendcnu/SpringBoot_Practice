@@ -12,7 +12,6 @@ import com.sreenu.beans.UserDetails;
 @RestController
 public class HelloWorldController {
 
-
 	//@RequestMapping(method = RequestMethod.GET,path = "/hello")
 	@GetMapping("/hello")
 	public String helloWorld() {
