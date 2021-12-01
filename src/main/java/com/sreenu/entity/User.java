@@ -8,13 +8,14 @@ import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-//import lombok.NoArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Entity
 @Table(name = "USER")
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
 public class User {
 
@@ -34,6 +35,5 @@ public class User {
 	@Column(name = "SSN", length = 50, nullable = false,unique = true)
 	private String ssn;
 	
-	private User() {}
 
 }
